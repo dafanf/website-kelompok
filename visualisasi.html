@@ -48,7 +48,7 @@
 
 <div class="section-container">
     <div class="container">
-      
+      <div id="TableFromJSON"></div>
     </div>
 </div>
 <footer class="footer-container text-center">
@@ -65,6 +65,23 @@
   document.addEventListener("DOMContentLoaded", function (event) {
      navActivePage();
   });
+  $(function () {
+    //mengambil data dari file json
+    $.get('data_LPSE_KalSel_2017-2021.json', function (obj) {
+      var str = "<table class=content-table>";
+      str += "<thead>"
+      str += "<tr><td>Tahun</td><<td>Hasil</td>/tr>";
+      str += "</thead>"
+      str += "<tbody>"
+      $.each(obj, function (n, data) {
+        str += "<tr><td>" + data.Tahun + "</td>";
+        str += "<td>" + (n + 1) + " " + data.hasil_analisis.Perusahaan_tidak_pernah_menang + "</td></tr>";
+      });
+      str += "</tbody>"
+      str += "</table>";
+      $('#TableFromJSON').html(str);
+    });
+  });
 </script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
@@ -78,8 +95,7 @@
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
   ga('create', 'UA-XXXXX-X', 'auto');
   ga('send', 'pageview');
-</script>
-
---> <script type="text/javascript" src="./main.70a66962.js"></script></body>
+</script>-->
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
 
 </html>
