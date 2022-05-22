@@ -354,21 +354,28 @@
     })
    
   if (index !== 0) {
-  const ctx = document.getElementById(`chart-${year}-${index}`).getContext('2d');
-   const chart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: chartLabels,
-        datasets: [{ 
-          data: chartDatasets,
-          label: key,
-          borderColor: "rgb(62,149,205)",
-          backgroundColor: "rgb(62,149,205,0.1)",
-          borderWidth:2
-        }
-       ]
-      },
-    });
+    const ctx = document.getElementById(`chart-${year}-${index}`).getContext('2d');
+    if(index === 1){
+      var str = "<p>";
+        str += "hello";
+        str+= "</p>";
+    }
+    else{
+      const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: chartLabels,
+          datasets: [{ 
+            data: chartDatasets,
+            label: key,
+            borderColor: "rgb(62,149,205)",
+            backgroundColor: "rgb(62,149,205,0.1)",
+            borderWidth:2
+          }
+        ]
+        },
+      });
+      }
     }
   })
 })
