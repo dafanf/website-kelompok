@@ -12,14 +12,98 @@ const chart2 = new Chart(ctx2, {
             datasource: {
                 rowMapping: 'index',
                 datasetLabels: "2017!I3",
-                url: 'data_gabungan.xlsx',
+                url: './Data_Gabungan.xlsx',
                 indexLabels: '2017!H4:H8',
                 data: '2017!I4:I8'
             }
         },
     }
 })
-const ctx = document.getElementById('line-chart2').getContext('2d')
+const ctx3 = document.getElementById('line-chart2').getContext('2d')
+const chart3 = new Chart(ctx3, {
+    type: 'bar',
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Daftar 5 Harga Kontrak Terbesar'
+        },
+        plugins: {
+            datasource: {
+                rowMapping: 'index',
+                datasetLabels: "2018!I3",
+                url: './Data_Gabungan.xlsx',
+                indexLabels: '2018!H4:H8',
+                data: '2018!I4:I8'
+            }
+        },
+    }
+})
+const ctx4 = document.getElementById('line-chart3').getContext('2d')
+const chart4 = new Chart(ctx4, {
+    type: 'bar',
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Daftar 5 Harga Kontrak Terbesar'
+        },
+        plugins: {
+            datasource: {
+                rowMapping: 'index',
+                datasetLabels: "2019!I3",
+                url: './Data_Gabungan.xlsx',
+                indexLabels: '2019!H4:H8',
+                data: '2019!I4:I8'
+            }
+        },
+    }
+})
+const ctx5 = document.getElementById('line-chart4').getContext('2d')
+const chart5 = new Chart(ctx5, {
+    type: 'bar',
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Daftar 5 Harga Kontrak Terbesar'
+        },
+        plugins: {
+            datasource: {
+                rowMapping: 'index',
+                datasetLabels: "2020!I3",
+                url: './Data_Gabungan.xlsx',
+                indexLabels: '2020!H4:H8',
+                data: '2020!I4:I8'
+            }
+        },
+    }
+})
+const ctx6 = document.getElementById('line-chart5').getContext('2d')
+const chart6 = new Chart(ctx6, {
+    type: 'bar',
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Daftar 5 Harga Kontrak Terbesar'
+        },
+        plugins: {
+            datasource: {
+                rowMapping: 'index',
+                datasetLabels: "2021!I3",
+                url: './Data_Gabungan.xlsx',
+                indexLabels: '2021!H4:H8',
+                data: '2021!I4:I8'
+            }
+        },
+    }
+})
+const ctx = document.getElementById('pie-chart').getContext('2d')
 const randomNum = () => Math.floor(Math.random() * (235 - 52 + 1) + 52);
 
 const randomRGB = () => `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`;
@@ -31,7 +115,11 @@ const chart = new Chart(ctx, {
         datasets: [{
             type: 'pie',
             yAxisID: 'temperature',
-            backgroundColor: [randomRGB(), randomRGB(), randomRGB(), randomRGB(), randomRGB()],
+            backgroundColor: [randomRGB(), randomRGB(), randomRGB(), randomRGB(), randomRGB(),
+                randomRGB(), randomRGB(), randomRGB(), randomRGB(), randomRGB(),
+                randomRGB(), randomRGB(), randomRGB(), randomRGB(), randomRGB(),
+                randomRGB(), randomRGB(), randomRGB(), randomRGB(), randomRGB(), randomRGB() 
+            ],
             tension: 0,
             fill: true
         }]
@@ -45,10 +133,10 @@ const chart = new Chart(ctx, {
         plugins: {
             datasource: {
                 rowMapping: 'index',
-                datasetLabels: "2017!I3",
+                datasetLabels: "Pemenang_Terbanyak!B3",
                 url: './Data_Gabungan.xlsx',
-                indexLabels: '2017!H4:H8',
-                data: '2017!I4:I8',
+                indexLabels: 'Pemenang_Terbanyak!C4:C24',
+                data: 'Pemenang_Terbanyak!B4:B24',
             }
         },
     }
