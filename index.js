@@ -1,25 +1,25 @@
-const ctx = document.getElementById('line-chart').getContext('2d')
-// const chart = new Chart(ctx, {
-//     type: 'bar',
-//     plugins: [ChartDataSource],
-//     options: {
-//         title: {
-//             display: true,
-//             fontSize: 20,
-//             text: 'Daftar 5 Harga Kontrak Terbesar'
-//         },
-//         plugins: {
-//             datasource: {
-//                 rowMapping: 'index',
-//                 datasetLabels: "2017!I3",
-//                 url: 'data_gabungan.xlsx',
-//                 indexLabels: '2017!H4:H8',
-//                 data: '2017!I4:I8'
-//             }
-//         },
-//     }
-// })
-
+const ctx2 = document.getElementById('line-chart').getContext('2d')
+const chart2 = new Chart(ctx2, {
+    type: 'bar',
+    plugins: [ChartDataSource],
+    options: {
+        title: {
+            display: true,
+            fontSize: 20,
+            text: 'Daftar 5 Harga Kontrak Terbesar'
+        },
+        plugins: {
+            datasource: {
+                rowMapping: 'index',
+                datasetLabels: "2017!I3",
+                url: 'data_gabungan.xlsx',
+                indexLabels: '2017!H4:H8',
+                data: '2017!I4:I8'
+            }
+        },
+    }
+})
+const ctx = document.getElementById('line-chart2').getContext('2d')
 const randomNum = () => Math.floor(Math.random() * (235 - 52 + 1) + 52);
 
 const randomRGB = () => `rgb(${randomNum()}, ${randomNum()}, ${randomNum()})`;
@@ -40,7 +40,7 @@ const chart = new Chart(ctx, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar 5 Harga Kontrak Terbesar'
+            text: 'Daftar Pemenang Terbanyak'
         },
         plugins: {
             datasource: {
