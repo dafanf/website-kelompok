@@ -1,10 +1,24 @@
 [
   {
     "Tahun": 2017,
-    "hasil_analisis": {
+    "hasil analisis": {
       "Perusahaan tidak pernah menang": 1609,
       "jumlah tender selesai": 333,
       "jumlah tender gagal": 16
+    },
+    "5 pemenang terbanyak": {
+      "CV. Dharma Cipta Pratama": 5,
+      "CV. SENTRATECS": 4,
+      "CV.RESAGRI JAYA": 3,
+      "PT. SARANA DOA BERSAMA": 3,
+      "CV. AGRO PERMATA PRIMA": 3
+    },
+    "5 harga kontrak tertinggi": {
+      "EMPAT TUJUH TUJUH": 21523901000,
+      "PT.TANJUNG RAYA BERSAMA": 14211536000,
+      "pt hm family": 14071071329,
+      "KARYA ABU FADHIL": 9094986000,
+      "PT. Arta Cipta Permata": 6826391669
     },
     "5 nilai pagu tertinggi": {
       "2868181": 50310565000,
@@ -37,10 +51,23 @@
   },
   {
     "Tahun": 2018,
-    "hasil_analisis": {
+    "hasil analisis": {
       "Perusahaan tidak pernah menang": 1972,
       "jumlah tender selesai": 399,
       "jumlah tender gagal": 16
+    },
+    "5 pemenang terbanyak": {
+      "CV. Dharma Cipta Pratama": 4,
+      "CV. FIAZTA MATRIX CONSULTANT": 4,
+      "PT.TANJUNG RAYA BERSAMA": 3,
+      "PT. Munasa Kreasi Nusantara": 2,
+      "PT Prakarsa Desain Konsultan": 2
+    },
+    "5 harga kontrak tertinggi": {
+      "PT.BATULICIN BETON ASPHALT": 10848356660,
+      "PT. Pandji Pratama Indonesia": 23689070581,
+      "PT.CHARIA BENEFIT UTAMA": 22394916000,
+      "PT.TANJUNG RAYA BERSAMA": 14199402386
     },
     "5 nilai pagu tertinggi": {
       "3746181": 108250000000,
@@ -73,10 +100,21 @@
   },
   {
     "Tahun": 2019,
-    "hasil_analisis": {
+    "hasil analisis": {
       "Perusahaan tidak pernah menang": 8930,
       "jumlah tender selesai": 406,
       "jumlah tender gagal": 6
+    },
+    "5 pemenang terbanyak": {
+      "CV. HARAPAN MASA": 2,
+      "CV. ATHA": 2
+    },
+    "5 harga kontrak tertinggi": {
+      "PT. HASRAT JAYA UTAMA": 34577517654,
+      "SAHABAT BARU": 31717571000,
+      "pt hm family": 30133983482,
+      "PT. MULTI USAHA PEMBANGUNAN": 18661138000,
+      "PT. SALAMANDRA PETRAMUYA": 17551060000
     },
     "5 nilai pagu tertinggi": {
       "5853181": 40945400000,
@@ -105,10 +143,23 @@
   },
   {
     "Tahun": 2020,
-    "hasil_analisis": {
+    "hasil analisis": {
       "Perusahaan tidak pernah menang": 1993,
       "jumlah tender selesai": 337,
       "jumlah tender gagal": 14
+    },
+    "5 pemenang terbanyak": {
+      "CV. DAYAKARSA MADYA Consultant": 8,
+      "CV. DAYA UTAMA KONSULTAN": 2,
+      "CV PRAKTIRA KONSULTAN": 2,
+      "CV. ATHA": 2,
+      "CV.CLAPEYRON PRATAMA": 2
+    },
+    "5 harga kontrak tertinggi": {
+      "PT.Sinar Cerah Sempurna": 12000015069,
+      "PT. PELITA ANDIKA AMBAR LESTARI": 8098656917,
+      "PT. PERMATA ANUGERAH YALASAMUDRA": 6478134691,
+      "PT.NABILA JAYA KARYA": 6276960264
     },
     "5 nilai pagu tertinggi": {
       "6988181": 43543500000,
@@ -139,10 +190,24 @@
   },
   {
     "Tahun": 2021,
-    "hasil_analisis": {
+    "hasil analisis": {
       "Perusahaan tidak pernah menang": 1984,
       "jumlah tender selesai": 284,
       "jumlah tender gagal": 16
+    },
+    "5 pemenang terbanyak": {
+      "CV. SENTRATECS": 4,
+      "PT. DAYA CIPTA DIANRANCANA": 3,
+      "PT. Multi Guna Tiga Prima": 3,
+      "CV. Dharma Cipta Pratama": 3,
+      "CV. GUNUNG PUTRI": 3
+    },
+    "5 harga kontrak tertinggi": {
+      "PT. NINDYA KARYA (PERSERO)": 45229216891,
+      "PT.BATULICIN BETON ASPHALT": 38671168229,
+      "PT.BENAWA CITRA PUTRA TABALONG": 26493675440,
+      "PT. Pandji Pratama Indonesia": 24360629599,
+      "PT. MULTI USAHA PEMBANGUNAN": 22759929149
     },
     "5 nilai pagu tertinggi": {
       "2868181": 50310565000,
