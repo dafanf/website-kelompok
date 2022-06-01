@@ -1,6 +1,11 @@
 const ctx2 = document.getElementById('line-chart').getContext('2d')
 const chart2 = new Chart(ctx2, {
     type: 'bar',
+    data:{
+        datasets:[{
+            backgroundColor: "#FFCDD2"
+        }
+    ]},
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -22,6 +27,11 @@ const chart2 = new Chart(ctx2, {
 const ctx3 = document.getElementById('line-chart2').getContext('2d')
 const chart3 = new Chart(ctx3, {
     type: 'bar',
+    data:{
+        datasets:[{
+            backgroundColor: "#FFCDD2"
+        }
+    ]},
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -43,6 +53,11 @@ const chart3 = new Chart(ctx3, {
 const ctx4 = document.getElementById('line-chart3').getContext('2d')
 const chart4 = new Chart(ctx4, {
     type: 'bar',
+    data:{
+        datasets:[{
+            backgroundColor: "#FFCDD2"
+        }
+    ]},
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -64,6 +79,11 @@ const chart4 = new Chart(ctx4, {
 const ctx5 = document.getElementById('line-chart4').getContext('2d')
 const chart5 = new Chart(ctx5, {
     type: 'bar',
+    data:{
+        datasets:[{
+            backgroundColor: "#FFCDD2"
+        }
+    ]},
     plugins: [ChartDataSource],
     options: {
         title: {
@@ -85,6 +105,11 @@ const chart5 = new Chart(ctx5, {
 const ctx6 = document.getElementById('line-chart5').getContext('2d')
 const chart6 = new Chart(ctx6, {
     type: 'bar',
+    data:{
+        datasets:[{
+            backgroundColor: "#FFCDD2"
+        }
+    ]},
     plugins: [ChartDataSource],
     options: {
         title: {
