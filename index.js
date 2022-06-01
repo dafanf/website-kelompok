@@ -6,7 +6,7 @@ const chart2 = new Chart(ctx2, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar 5 Harga Kontrak Terbesar'
+            text: 'Daftar 5 Harga Kontrak Terbesar 2017'
         },
         plugins: {
             datasource: {
@@ -27,7 +27,7 @@ const chart3 = new Chart(ctx3, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar 5 Harga Kontrak Terbesar'
+            text: 'Daftar 5 Harga Kontrak Terbesar 2018'
         },
         plugins: {
             datasource: {
@@ -48,7 +48,7 @@ const chart4 = new Chart(ctx4, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar 5 Harga Kontrak Terbesar'
+            text: 'Daftar 5 Harga Kontrak Terbesar 2019'
         },
         plugins: {
             datasource: {
@@ -69,7 +69,7 @@ const chart5 = new Chart(ctx5, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar 5 Harga Kontrak Terbesar'
+            text: 'Daftar 5 Harga Kontrak Terbesar 2020'
         },
         plugins: {
             datasource: {
@@ -90,7 +90,7 @@ const chart6 = new Chart(ctx6, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar 5 Harga Kontrak Terbesar'
+            text: 'Daftar 5 Harga Kontrak Terbesar 2021'
         },
         plugins: {
             datasource: {
@@ -128,7 +128,7 @@ const chart = new Chart(ctx, {
         title: {
             display: true,
             fontSize: 20,
-            text: 'Daftar Pemenang Terbanyak'
+            text: 'Daftar Pemenang Terbanyak Dalam 5 Tahun'
         },
         plugins: {
             datasource: {
